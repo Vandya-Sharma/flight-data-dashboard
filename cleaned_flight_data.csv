@@ -1,0 +1,11 @@
+Date,Status,Airline,Flight Number,Departure Airport,Departure Time,Arrival Airport,Arrival Time,Departue Time
+2025-05-23,scheduled,Fastjet Zimbabwe,FJW8442,Bulawayo,2025-05-23T07:25:00+00:00,Harare,2025-05-23 08:15:00+00:00,2025-05-23 07:25:00+00:00
+2025-05-23,scheduled,,H16196,Bulawayo,2025-05-23T07:25:00+00:00,Harare,2025-05-23 08:15:00+00:00,2025-05-23 07:25:00+00:00
+2025-05-23,active,empty,,Karumba,2025-05-23T10:00:00+00:00,Longreach,2025-05-23 12:38:00+00:00,2025-05-23 10:00:00+00:00
+2025-05-23,active,Fly One,5F534,International Airport Chisinau,2025-05-23T01:30:00+00:00,Zvartnots International,2025-05-23 05:00:00+00:00,2025-05-23 01:30:00+00:00
+2025-05-23,scheduled,WestJet,WS5923,Ninoy Aquino International,2025-05-23T10:05:00+00:00,Narita International Airport,2025-05-23 15:30:00+00:00,2025-05-23 10:05:00+00:00
+2025-05-23,active,Jetstar,JQ763,Ninoy Aquino International,2025-05-23T06:55:00+00:00,Kansai International,2025-05-23 12:05:00+00:00,2025-05-23 06:55:00+00:00
+2025-05-23,active,empty,,Newman,2025-05-23T06:50:00+00:00,Meekatharra,2025-05-23 08:27:00+00:00,2025-05-23 06:50:00+00:00
+2025-05-23,scheduled,Ethiopian Airlines,ET925,Bole International,2025-05-23T09:05:00+00:00,Libreville,2025-05-23 11:50:00+00:00,2025-05-23 09:05:00+00:00
+2025-05-23,scheduled,ASKY,KP1066,Bole International,2025-05-23T09:05:00+00:00,Libreville,2025-05-23 11:50:00+00:00,2025-05-23 09:05:00+00:00
+2025-05-23,scheduled,Ethiopian Airlines,ET901,Bole International,2025-05-23T09:00:00+00:00,Murtala Muhammed,2025-05-23 12:25:00+00:00,2025-05-23 09:00:00+00:00
