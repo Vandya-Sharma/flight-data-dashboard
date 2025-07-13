@@ -1,39 +1,38 @@
-✈️ Flight Data Analytics Dashboard
-This is a beginner-friendly flight data analytics project using real-time data from the Aviationstack API. The project involves API-based data extraction, JSON normalization, data cleaning, interactive filtering, visualizations, and dashboard deployment using Streamlit.
+# Flight Data Analytics Dashboard
+- This is a beginner-friendly flight data analytics project using real-time data from the Aviationstack API. The project involves API-based data extraction, JSON normalization, data cleaning, interactive filtering, visualizations, and dashboard deployment using Streamlit.
 
-📁 Dataset
-Real-time flight data accessed and extracted via the Aviationstack API.
-Preprocessed data stored as cleaned_flight_data.csv.
+## Dataset
+- Real-time flight data accessed and extracted via the Aviationstack API.
+- Preprocessed data stored as cleaned_flight_data.csv.
 
-📊 Dashboard
-This project includes a Streamlit-based interactive dashboard that allows users to analyze and filter flight data dynamically.
+## Dashboard
+- This project includes a Streamlit-based interactive dashboard that allows users to analyze and filter flight data dynamically.
 
-▶️ View Interactive Dashboard
-(To run: streamlit run app.py)
+[View Interactive Dashboard](https://vandya-sharma.github.io/sales-data-analysis/)
 
-🛠️ Technologies Used
+## Technologies Used
 
-Python
+- Python
 
-Pandas
+- Pandas
 
-Matplotlib & Seaborn
+- Matplotlib & Seaborn
 
-Streamlit
+- Streamlit
 
-REST API (Aviationstack)
+- REST API (Aviationstack)
 
-📌 Key Features
+## Key Features
 
-✅ Real-time flight data ingestion using API
+- Real-time flight data ingestion using API
 
-✅ Cleaned and transformed nested JSON into structured tabular format using Pandas
+- Cleaned and transformed nested JSON into structured tabular format using Pandas
 
-✅ Filters for Flight Number, Airline, Airport, Status, and Date Range
+- Filters for Flight Number, Airline, Airport, Status, and Date Range
 
-✅ Key Metrics: Total Flights, Unique Airlines, Departure & Arrival Airports
+- Key Metrics: Total Flights, Unique Airlines, Departure & Arrival Airports
 
-✅ Visualizations:
+- Visualizations:
 
 Line Chart: Flights by Departure Hour
 
@@ -43,39 +42,33 @@ Pie Chart: Flight Status Distribution
 
 Horizontal Bar: Top 10 Departure Airports
 
-✅ Data Table with search and export to CSV
+- Data Table with search and export to CSV
 
-✅ Optional: Raw dataset view toggle
+- Optional: Raw dataset view toggle
 
-🔍 Limitations
-Real‑time scope: The Aviationstack free tier only provides current flight data—no historical or scheduled future flights.
+## Limitations
 
-Limited date variety: Flight records often share the same departure date due to real-time API constraints.
+- Real‑time scope: The Aviationstack free tier only provides current flight data—no historical or scheduled future flights.
 
-API quota constraints: The free tier imposes monthly API call limits, impacting data volume.
+- Limited date variety: Flight records often share the same departure date due to real-time API constraints.
 
-Incomplete fields: Some records lack flight numbers or airline names; these were filtered or handled during cleaning.
+- API quota constraints: The free tier imposes monthly API call limits, impacting data volume.
 
-Geolocation constraints: Mapping features were omitted due to missing or incomplete latitude/longitude data.
+- Incomplete fields: Some records lack flight numbers or airline names; these were filtered or handled during cleaning.
 
-Time zone normalization: All times are treated as UTC since the API doesn’t adjust for airport-specific time zones.
+- Geolocation constraints: Mapping features were omitted due to missing or incomplete latitude/longitude data.
 
-Static snapshot: Data is fetched in a single batch; live updates only occur when the dashboard is re-run.
+- Time zone normalization: All times are treated as UTC since the API doesn’t adjust for airport-specific time zones.
 
-📂 Output
+- Static snapshot: Data is fetched in a single batch; live updates only occur when the dashboard is re-run.
 
-Cleaned and filtered CSV file download
+## Output
 
-Streamlit dashboard with real-time data interaction
+- Cleaned and filtered CSV file download
 
-Visual insights into flight patterns and status trends
+- Streamlit dashboard with real-time data interaction
 
-🚀 Objective
-To demonstrate hands-on experience in using public APIs, performing real-time data analysis, and building interactive dashboards with Streamlit for business and operational insights.
+- Visual insights into flight patterns and status trends
 
-
-
-
-Search
-
-
+## Objective
+- To demonstrate hands-on experience in using public APIs, performing real-time data analysis, and building interactive dashboards with Streamlit for business and operational insights.
